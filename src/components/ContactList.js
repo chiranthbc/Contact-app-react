@@ -1,7 +1,7 @@
 import React from "react";
 
 const ContactList = ({ contacts, deleteContact }) => {
-  const renderingCOntacts = contacts.map((contact) => {
+  const renderingContacts = contacts.map((contact) => {
     return (
       <ul
         key={contact.id}
@@ -23,7 +23,7 @@ const ContactList = ({ contacts, deleteContact }) => {
       <h1 className="text-center text-blue-400 text-xl font-semibold mb-4">
         Contact List
       </h1>
-      <div>{renderingCOntacts}</div>
+      <div>{renderingContacts}</div>
     </div>
   );
 };
